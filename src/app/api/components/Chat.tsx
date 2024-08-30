@@ -5,7 +5,7 @@ import { useRef, useEffect } from 'react'
 
 export default function Chat() {
     const { messages, input, handleInputChange, handleSubmit } = useChat({
-        api: '../api/chat'
+        api: 'api/chat/'
     });
 
     return (
